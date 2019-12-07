@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reset_pass"
+    android:background="@drawable/grad_style">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/login_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Forgot"
+            android:textSize="30sp"
+            app:fontFamily="sans-serif-medium"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login_icon"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/info_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_login"
+            android:layout_marginTop="10dp"
+            android:text="@string/info"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/linear_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_reset"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                app:fontFamily="sans-serif-medium"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:id="@+id/email_reset"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/edit_style"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                app:fontFamily="sans-serif-medium"/>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resetpass_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_login"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_style"
+            android:text="@string/reset_pass"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-medium"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"/>
+
+        <Button
+            android:id="@+id/btn_back_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/resetpass_button"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_style2"
+            android:text="@string/back"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-medium"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

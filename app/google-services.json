@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367198222224",
+    "firebase_url": "https://graphical-elf-228505.firebaseio.com",
+    "project_id": "graphical-elf-228505",
+    "storage_bucket": "graphical-elf-228505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367198222224:android:5821a34eb265378a902515",
+        "android_client_info": {
+          "package_name": "com.eca.aishu.trafichack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367198222224-0lun44jll92or3v7jkg1g9c4qkd00da4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eca.aishu.trafichack",
+            "certificate_hash": "0434c64b1b64939b6a082584a281bd1744a5ed50"
+          }
+        },
+        {
+          "client_id": "367198222224-q1tp21idarghpga070d06q73bf6sjose.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVvN93jllzc0ZYrgb5_pwbLxJHzlFTivo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367198222224-q1tp21idarghpga070d06q73bf6sjose.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
